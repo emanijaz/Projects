@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "title": "Doctors Appointment",
+      "description": "Going to discuss the reports",
+      "dayAndTime": "7th Jan,2019",
+      "reminder": true,
+      "id": 2
+    },
+    {
+      "title": "Office Meeting",
+      "description": "Have to check progress report",
+      "dayAndTime": "9th July, 2020",
+      "reminder": false,
+      "id": 3
+    },
+    {
+      "title": "School Meeting",
+      "description": "Some new courses to discuss",
+      "dayAndTime": "12th Feb, 2020",
+      "reminder": false,
+      "id": 4
+    }
+  ]
+}
