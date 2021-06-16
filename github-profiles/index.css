@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    /* background-color: #2a2a72; */
+    background-color:  rgb(209, 100, 60);
+    /* background-image: linea/r-gradient(blue, black); */
+
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+input{
+    background-color: rgb(237, 139, 86);
+    border-radius: 10px;
+    border: 2px solid rgb(235, 109, 55);
+    box-shadow: 0 5px 20px rgb(243, 137, 88) , 0 5px 10px rgb(174, 64, 17);
+    padding: 5px;
+    color: black;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+input::placeholder {
+    color: black;
+}
+input:focus {
+    outline: none;
+}
+
+.userCard{
+    /* background-color:  rgb(230, 136, 49); */
+    background-image: linear-gradient(315deg, rgb(240, 121, 66) 50%, rgb(237, 139, 86) 100%);
+    border-radius: 10px;
+    padding: 3rem;
+    display: flex;
+    max-width: 800px;
+}
+
+#userAvatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid rgb(209, 100, 60);
+    box-shadow: 0 5px 20px rgb(175, 58, 15) , 0 5px 10px rgb(174, 64, 17);
+
+    /* align-items: center; */
+}
+
+#avatarDiv{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#userInfo{
+    color:black;
+}
+#userInfo h2{
+    margin-top: 2rem;
+}
+
+#userInfo ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 300px;
+    list-style-type: none;
+}
+
+#userInfo ul li strong {
+    font-size: 10px;
+    margin-left: 5px ;
+}
+
+.repo {
+    background-color: rgb(209, 100, 60);
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.76rem;
+    color: black;
+    text-decoration: none;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    display: inline-block;
+}
+.userFollowers .userFollowing{
+    text-decoration: none;
+    color: pink;
+    border-color: white;
+}
